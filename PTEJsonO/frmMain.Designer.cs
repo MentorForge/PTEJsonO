@@ -31,6 +31,7 @@
             this.cmdConvert = new System.Windows.Forms.Button();
             this.cmdConvert2 = new System.Windows.Forms.Button();
             this.cmdConvert3 = new System.Windows.Forms.Button();
+            this.cmd103 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cmdConvert
@@ -55,7 +56,7 @@
             // 
             // cmdConvert3
             // 
-            this.cmdConvert3.Location = new System.Drawing.Point(513, 241);
+            this.cmdConvert3.Location = new System.Drawing.Point(478, 241);
             this.cmdConvert3.Name = "cmdConvert3";
             this.cmdConvert3.Size = new System.Drawing.Size(75, 23);
             this.cmdConvert3.TabIndex = 2;
@@ -63,11 +64,22 @@
             this.cmdConvert3.UseVisualStyleBackColor = true;
             this.cmdConvert3.Click += new System.EventHandler(this.cmdConvert3_Click);
             // 
+            // cmd103
+            // 
+            this.cmd103.Location = new System.Drawing.Point(478, 291);
+            this.cmd103.Name = "cmd103";
+            this.cmd103.Size = new System.Drawing.Size(75, 23);
+            this.cmd103.TabIndex = 3;
+            this.cmd103.Text = "103";
+            this.cmd103.UseVisualStyleBackColor = true;
+            this.cmd103.Click += new System.EventHandler(this.cmd103_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(619, 326);
+            this.Controls.Add(this.cmd103);
             this.Controls.Add(this.cmdConvert3);
             this.Controls.Add(this.cmdConvert2);
             this.Controls.Add(this.cmdConvert);
@@ -82,5 +94,6 @@
         private System.Windows.Forms.Button cmdConvert;
         private System.Windows.Forms.Button cmdConvert2;
         private System.Windows.Forms.Button cmdConvert3;
+        private System.Windows.Forms.Button cmd103;
     }
 }
